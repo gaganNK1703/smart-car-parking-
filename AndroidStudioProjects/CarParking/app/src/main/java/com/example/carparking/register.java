@@ -75,5 +75,10 @@ public class register extends AppCompatActivity {
         Matcher m = p.matcher(NUMBERPLATE);
         return m.matches();
     }
+    public String getVehicleNumber() {
+        EditText vehicleno_test = findViewById(R.id.vehicle_no);
+        System.out.println(String.valueOf(vehicleno_test));
+        return String.valueOf(vehicleno_test.getText());
+    }
 
 }
