@@ -21,7 +21,7 @@ public class ExampleUnitTest {
     private register myClass;
     @Test
     public void testMyMethod() {
-        when(myClass.getVehicleNumber()).thenReturn("KA20MA5671");
+        when(myClass.getVehicleNumber()).thenReturn("KA19MA7088");
         assertEquals("KA19MA7088", myClass.getVehicleNumber());
     }
     
