@@ -20,9 +20,19 @@ public class ExampleUnitTest {
     @Mock
     private register myClass;
     @Test
-    public void testMyMethod() {
+    public void testMyMethod1() {
         when(myClass.getVehicleNumber()).thenReturn("KA19MA7088");
         assertEquals("KA19MA7088", myClass.getVehicleNumber());
+    }
+    @Test
+    public void testMyMethod2() {
+        when(myClass.getVehicleNumber()).thenReturn("KA19MA7088");
+        assertEquals("KA20MA7088", myClass.getVehicleNumber());
+    }
+    @Test
+    public void testMyMethod3() {
+        when(myClass.getVehicleNumber()).thenReturn("KA19MA7087");
+        assertEquals("KA20MA7087", myClass.getVehicleNumber());
     }
     
 }
