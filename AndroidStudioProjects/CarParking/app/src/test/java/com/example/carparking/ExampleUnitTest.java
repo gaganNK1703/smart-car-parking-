@@ -34,5 +34,10 @@ public class ExampleUnitTest {
         when(myClass.getVehicleNumber()).thenReturn("KA20MA7087");
         assertEquals("KA20MA7087", myClass.getVehicleNumber());
     }
+    @Test
+    public void testMyMethod4() {
+        when(myClass.getVehicleNumber()).thenReturn("MH02AB1234");
+        assertEquals("MH02AB1234", myClass.getVehicleNumber());
+    }
     
 }
