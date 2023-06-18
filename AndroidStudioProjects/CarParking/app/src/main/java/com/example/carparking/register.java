@@ -41,6 +41,16 @@ public class register extends AppCompatActivity {
         sp.setAdapter(adap);
         Button book=(Button)findViewById(R.id.book_lots);
         EditText vehicleno=(EditText)findViewById(R.id.vehicle_no);
+        Button admin_control=findViewById(R.id.Admin);
+
+
+        admin_control.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent admins=new Intent(getApplicationContext(),Login.class);
+                startActivity(admins);
+            }
+        });
 
 
 

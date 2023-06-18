@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062716764226",
+    "project_id": "carparkingtesting",
+    "storage_bucket": "carparkingtesting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062716764226:android:7ebae0c099bae127adbddb",
+        "android_client_info": {
+          "package_name": "com.example.parking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062716764226-6oeimm5fnlilhlpn8ul2pv0ggjbek6vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4B6VBGTxM-fXfCkQd-T-mUiXHOpRSxY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062716764226-6oeimm5fnlilhlpn8ul2pv0ggjbek6vi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
