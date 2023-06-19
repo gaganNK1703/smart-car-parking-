@@ -49,11 +49,18 @@ public class LoginTest {
         Espresso.onView(ViewMatchers.withId(R.id.password)).perform(ViewActions.typeText("1234567"));
         Espresso.onView(ViewMatchers.withId(R.id.btn_login)).perform(ViewActions.click());
 
-       // intending(toPackage(MainActivityAdmin.class.getPackage().getName()))
-                //.respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
+       // intending(toPackage(MainActivityAdminTest.class.getPackage().getName()))
+         //       .respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
 
         // Assert that the intended intent was sent
-    //    intended(IntentMatchers.hasComponent(MainActivityAdmin.class.getName()));
+        //intended(IntentMatchers.hasComponent(MainActivityAdminTest.class.getName()));
+
+        try{
+            Thread.sleep(2000);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
 
         // TODO: Add assertions to verify the login result
         // For example, you can use Espresso.onView(...).check(...) to check if a certain view is displayed after login

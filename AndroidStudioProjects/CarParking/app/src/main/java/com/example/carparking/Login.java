@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -101,4 +102,18 @@ public class Login extends AppCompatActivity {
             }
         });
     }
+
+    public String getEmail() {
+        EditText email_test = findViewById(R.id.email) ;
+        System.out.println(String.valueOf(email_test));
+        return String.valueOf(email_test.getText());
+    }
+    public String getPassword() {
+        EditText password_test = findViewById(R.id.password) ;
+        System.out.println(String.valueOf(password_test));
+        return String.valueOf(password_test.getText());
+    }
+
+
+
 }

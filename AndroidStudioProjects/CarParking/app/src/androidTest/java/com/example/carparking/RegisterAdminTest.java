@@ -25,7 +25,7 @@ public class RegisterAdminTest {
     @Test
     public void testRegistration() {
             //Initialize Firebase Authentication emulator
-       FirebaseAuth auth = FirebaseAuth.getInstance();
+        FirebaseAuth auth = FirebaseAuth.getInstance();
         auth.useEmulator("10.0.2.2", 9099); // Replace with the appropriate emulator host and port
 
 

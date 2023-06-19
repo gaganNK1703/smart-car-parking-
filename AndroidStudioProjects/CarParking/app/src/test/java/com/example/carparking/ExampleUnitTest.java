@@ -20,6 +20,7 @@ public class ExampleUnitTest {
     @Mock
     private register myClass;
 
+    @Test
     public void testMyMethod1() {
         when(myClass.getVehicleNumber()).thenReturn("KA19MA7088");
         assertEquals("KA19MA7088", myClass.getVehicleNumber());
@@ -39,6 +40,7 @@ public class ExampleUnitTest {
         when(myClass.getVehicleNumber()).thenReturn("MH02AB1234");
         assertEquals("MH02AB1234", myClass.getVehicleNumber());
     }
+
 
     
 }
